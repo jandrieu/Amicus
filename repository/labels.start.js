@@ -90,4 +90,3 @@ db.editors.findOne({ "auths": { $elemMatch: {"type": "native", "username":"joe"}
 
 db.labels.ensureIndex({xUID:1});
 
-db.editors.find(
